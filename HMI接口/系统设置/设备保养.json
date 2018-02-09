@@ -1,0 +1,23 @@
+{
+    "List":[
+        {
+            "WellName":"J01-001",
+            "FirestMaintainCycle":30,
+            "SecondMaintainCycle":180,
+            "LastFirstMaintainTimes":"2017-11-27 10:00",
+            "LastSecondMaintainTimes":"2017-08-15 10:00"
+        },{
+            "WellName":"J01-002",
+            "FirestMaintainCycle":30,
+            "SecondMaintainCycle":180,
+            "LastFirstMaintainTimes":"2017-11-27 10:00",
+            "LastSecondMaintainTimes":"2017-08-15 10:00"
+        },{
+            "WellName":"J01-003",
+            "FirestMaintainCycle":30,
+            "SecondMaintainCycle":180,
+            "LastFirstMaintainTimes":"2017-11-27 10:00",
+            "LastSecondMaintainTimes":"2017-08-15 10:00"
+        }
+    ]
+}

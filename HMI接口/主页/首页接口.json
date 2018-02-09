@@ -1,0 +1,51 @@
+{
+    "NormalWellCount": 23,
+    "StoptedWellCount": 3,
+    "WarningWellCotunt": 3,
+    "EarlyWarningWellCount":3,
+    "WellList":[{
+        "WellName":"J01-001",
+        "Status":1,
+        "Color":"#ffcc33"
+    },{
+        "WellName":"J01-002",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-003",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-004",
+        "Status":3,
+        "Color":"#333333"
+    },{
+        "WellName":"J01-005",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-006",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-007",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-008",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-009",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-010",
+        "Status":0,
+        "Color":"#48d27a"
+    },{
+        "WellName":"J01-011",
+        "Status":2,
+        "Color":"#FF0010"
+    }]
+}

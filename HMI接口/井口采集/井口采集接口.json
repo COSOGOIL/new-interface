@@ -1,0 +1,26 @@
+{
+    "WellName": "J01-001",
+    "HistoryData": [
+        {
+            "AcquisitionTime": "2017-12-29 00:00:01",
+            "TubingPressure": 1.25,
+            "CasingPressure": 2.04,
+            "WellHeadFluidTemperature": 42,
+            "ProducingfluidLevel": 736.5
+        },
+        {
+            "AcquisitionTime": "2017-12-29 00:10:00",
+            "TubingPressure": 1.25,
+            "CasingPressure": 2.04,
+            "WellHeadFluidTemperature": 42,
+            "ProducingfluidLevel": 736.5
+        },
+        {
+            "AcquisitionTime": "2017-12-29 00:10:00",
+            "TubingPressure": 1.25,
+            "CasingPressure": 2.04,
+            "WellHeadFluidTemperature": 42,
+            "ProducingfluidLevel": 736.5
+        }
+    ]
+}

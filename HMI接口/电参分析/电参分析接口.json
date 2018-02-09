@@ -1,0 +1,62 @@
+{
+    "WellName": "J01-001",
+    "AcquisitionTime": "2017-12-29 08:49:58",
+    "LiftingType": "PumpingUnit", //抽油机
+    "RunningStatus": true, //false-停抽 true-运行
+    "AlarmType": 1202,
+    "AlarmTypeName": "正常",
+    "Totalpowerconsumption": 45245.0,
+    "DailyRealTimeRunningRange": [
+        {
+            "StartTime": "00:00",
+            "EndTime": "08:49"
+        }
+    ],
+    "DailyRealTimeRunningTime": 8.83,
+    "DailyRealTimeRunningTimeEfficiency": 0.368,
+    "DailyRealTimePowerConsumption": 125,
+    "HistoryData": [
+        {
+            "AcquisitionTime": "2017-12-29 00:00:01",
+            "Currenta": 16.89,
+            "Currentb": 16.86,
+            "Currentc": 16.55,
+            "Voltagea": 229.23,
+            "Voltageb": 222.15,
+            "Voltagec": 223.8,
+            "Activepowera":8.02,
+            "Activepowerb":8.02,
+            "Activepowerc":8.02,
+            "Activepowersum":24.06,
+            dailyrealtimepowerconsumption:0
+        },
+        {
+            "AcquisitionTime": "2017-12-29 00:10:00",
+            "Currenta": 14.2,
+            "Currentb": 14.4,
+            "Currentc": 14.32,
+            "Voltagea": 228.4,
+            "Voltageb": 221.03,
+            "Voltagec": 223.8,
+            "Activepowera":-2.05,
+            "Activepowerb":-1.5,
+            "Activepowerc":-1.5,
+            "Activepowersum":-5.05,
+            dailyrealtimepowerconsumption:2.01
+        },
+        {
+            "AcquisitionTime": "2017-12-29 00:10:00",
+            "Currenta": 18.64,
+            "Currentb": 18.62,
+            "Currentc": 18.39,
+            "Voltagea": 222.48,
+            "Voltageb": 224.88,
+            "Voltagec": 227.88,
+            "Activepowera":5.2,
+            "Activepowerb":5.2,
+            "Activepowerc":5.24,
+            "Activepowersum":15.64,
+            dailyrealtimepowerconsumption:4.21
+        }
+    ]
+}

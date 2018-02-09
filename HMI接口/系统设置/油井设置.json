@@ -1,0 +1,39 @@
+{
+    "List": [
+        {
+            "WellName": "J01-001", //井名
+            "LiftingType": "PumpingUnit", //举升类型
+            "LiftingTypeName": "抽油机", //举升类型名称
+            "FluidPVT": { //PVT物性
+                "CrudeOilDensity": 0.88, //原油密度
+                "WaterDensity": 1, //水密度
+                "NaturalGasRelativeDensity": 0.7, //天然气相对密度
+                "SaturationPressure": 9.6 //饱和压力
+            },
+            "Reservoir": { //油藏
+                "Depth": 2854, //油气藏中部深度
+                "Temperature": 113.39 //油气藏中部温度
+            },
+            "CommunicationParam":{
+                "Driver":"JC001OPC.topic.01"
+            }
+        }, {
+            "WellName": "J01-002", //井名
+            "LiftingType": "PumpingUnit", //举升类型
+            "LiftingTypeName": "抽油机", //举升类型名称
+            "FluidPVT": { //PVT物性
+                "CrudeOilDensity": 0.86, //原油密度
+                "WaterDensity": 1, //水密度
+                "NaturalGasRelativeDensity": 0.7, //天然气相对密度
+                "SaturationPressure": 9.6 //饱和压力
+            },
+            "Reservoir": { //油藏
+                "Depth": 1523, //油气藏中部深度
+                "Temperature": 96.23 //油气藏中部温度
+            },
+            "CommunicationParam":{
+                "Driver":"JC002OPC.topic.02"
+            }
+        }
+    ]
+}

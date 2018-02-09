@@ -1,0 +1,90 @@
+{
+    "WellName": "J01-001",
+    "FsDiagramDiagnosisParam": {
+        "RodString": { //抽油杆   
+            "EveryRod": [
+                { //一级抽油杆
+                    "Type": 1, //杆类型 1-实心抽油杆，2-空心抽油杆
+                    "Grade": "HL", //杆级别 A，B，C，K，D，KD，HL，HY
+                    "Length": 423.31, //杆长度
+                    "OutsideDiameter": 0.025 //杆径 单位：m
+                }, { //二级抽油杆
+                    "Type": 1, //杆类型
+                    "Grade": "HL", //杆级别
+                    "Length": 447.08, //杆长度
+                    "OutsideDiameter": 0.022 //杆径
+                }
+            ]
+        },
+        "Pump": { //抽油泵
+            "PumpType": "T", //抽油泵类型    R-杆式泵  T-管式泵     
+            "BarrelType": "L", //泵筒类型 H-厚壁筒，用于金属柱塞；W-薄壁筒，用于金属柱塞；L-组合泵筒，用于金属柱塞；P-厚壁筒，用于软密封柱塞；S-薄壁筒，用于软密封柱塞；X-厚壁筒，用于金属柱塞，薄壁形螺纹构形
+            "PumpGrade": 1, //抽油泵级别 整筒泵：1-一级泵 2-二级泵 3-三级泵 4-四级泵 5-五级泵 组合泵：1-一级泵 2-二级泵 3-三级泵
+            "PlungerLength": 1.3, //柱塞长
+            "PumpBoreDiameter": 0.044 //泵径 单位:m
+        },
+        "TubingString": { //油管
+            "EveryTubing": [
+                {
+                    "InsideDiameter": 0.062 //油管内径 单位m
+                }
+            ]
+        },
+        "CasingString": { //生产套管
+            "EveryCasing": [
+                {
+                    "InsideDiameter": 0.159 //生产套管内径
+                }
+            ]
+        },
+        "ProductionParameter": { //生产参数
+            "WaterCut": 73.1, //含水率
+            "ProductionGasOilRatio": 7, //生产气油比
+            "TubingPressure": 0.5, //油压
+            "CasingPressure": 0.6, //套压
+            "WellHeadFluidTemperature": 35, //井口流温
+            "ProducingfluidLevel": 975 //动液面
+        },
+        "ManualIntervention": {
+            "NetGrossRatio": 1.0 //净毛比
+        }
+    },
+    "BalanceAnalysisParam": {
+        "PumpingUnit": { //抽油机
+            "Manufacturer": "大庆", //抽油机厂家
+            "Model": "CYJY12-4.8-53HF", //抽油机型号
+            "Type": 2, //抽油机类型 1-前置式，2-后置式（默认），3-立式
+            "CrankRotationDirection": "Anticlockwise", //旋转方向 Clockwise－顺时针，Anticlockwise－逆时针
+            "OffsetAngleOfCrank": -8, //曲柄偏置角
+            "CrankGravityRadius": 1.12, //曲柄重心半径
+            "SingleCrankWeight": 18.19, //单块曲柄重量
+            "BalanceMaxMoveSpace": 3, //最大调整距离
+            "StructuralUnbalance": 26.75, //结构不平衡重
+            "Balance": { //平衡块
+                "MaxCNT": 4, //标配平衡块数
+                "EveryBalance": [
+                    {
+                        "Name": "UpperLeft",
+                        "Position": 0.8, //平衡块位置1 单位:m
+                        "Weight": 10.58 //平衡块重量1 单位:kN
+                    }, {
+                        "Name": "LowerLeft",
+                        "Position": 0.8, //平衡块位置2
+                        "Weight": 10.58 //平衡块重量2
+                    }, {
+                        "Name": "UpperRight",
+                        "Position": 0.7, //平衡块位置3
+                        "Weight": 10.58 //平衡块重量3
+                    }, {
+                        "Name": "LowerRight",
+                        "Position": 0.7, //平衡块位置4
+                        "Weight": 10.58 //平衡块重量4
+                    }
+                ]
+            }
+        },
+        "SystemEfficiency": { //系统效率
+            "FourBarLinkageEfficiency": 0.95 //四连杆效率
+        }
+    }
+}

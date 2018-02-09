@@ -1,0 +1,42 @@
+{
+    "NeedFirstMaintainWellCount":5,
+    "NeedSecondMaintainWellCount":0,
+    "List":[
+        {
+            "WellName":"J01-001",
+            "TotalRunningTime":559.2,
+            "FirstMaintainRemainDays":1.3,//三天以内报警 五天以内预警 报警颜色：#FF0010 预警颜色:#ffcc33
+            "SecondMaintainRemainDays":30.7,//三天以内报警 五天以内预警 报警颜色：#FF0010 预警颜色:#ffcc33
+            "FirstMaintainTimes":"2017-11-27 10:00",
+            "SecondMaintainTimes":"2017-08-15 10:00"
+        },{
+            "WellName":"J01-017",
+            "TotalRunningTime":559.2,
+            "FirstMaintainRemainDays":1.3,
+            "SecondMaintainRemainDays":30.7,
+            "FirstMaintainTimes":"2017-11-27 10:00",
+            "SecondMaintainTimes":"2017-08-15 10:00"
+        },{
+            "WellName":"J01-018",
+            "TotalRunningTime":559.2,
+            "FirstMaintainRemainDays":1.3,
+            "SecondMaintainRemainDays":30.7,
+            "FirstMaintainTimes":"2017-11-27 10:00",
+            "SecondMaintainTimes":"2017-08-15 10:00"
+        },{
+            "WellName":"J01-019",
+            "TotalRunningTime":559.2,
+            "FirstMaintainRemainDays":1.3,
+            "SecondMaintainRemainDays":30.7,
+            "FirstMaintainTimes":"2017-11-27 10:00",
+            "SecondMaintainTimes":"2017-08-15 10:00"
+        },{
+            "WellName":"J01-020",
+            "TotalRunningTime":559.2,
+            "FirstMaintainRemainDays":1.3,
+            "SecondMaintainRemainDays":30.7,
+            "FirstMaintainTimes":"2017-11-27 10:00",
+            "SecondMaintainTimes":"2017-08-15 10:00"
+        }
+    ]
+}
